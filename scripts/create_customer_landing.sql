@@ -7,7 +7,8 @@ CREATE EXTERNAL TABLE `customer_landing`(
   `registrationdate` bigint COMMENT 'from deserializer',
   `lastupdatedate` bigint COMMENT 'from deserializer',
   `sharewithresearchasofdate` bigint COMMENT 'from deserializer',
-  `sharewithpublicasofdate` bigint COMMENT 'from deserializer')
+  `sharewithpublicasofdate` bigint COMMENT 'from deserializer',
+  `sharewithfriendsasofdate` bigint COMMENT 'from deserializer')
 ROW FORMAT SERDE
   'org.openx.data.jsonserde.JsonSerDe'
 STORED AS INPUTFORMAT

@@ -48,6 +48,7 @@ DropFields_node1696368405404 = DropFields.apply(
         "lastupdatedate",
         "sharewithresearchasofdate",
         "sharewithpublicasofdate",
+        "sharewithfriendsasofdate",
     ],
     transformation_ctx="DropFields_node1696368405404",
 )
