@@ -20,7 +20,7 @@ customerlanding_node1 = glueContext.create_dynamic_frame.from_options(
     format="json",
     connection_options={
         "paths": [
-            "s3://erics-stedi-lakehouse/customer/landing/customer-keep-1655293787679.json"
+            "s3://erics-stedi-lakehouse/customer/landing/"
         ],
         "recurse": True,
     },
